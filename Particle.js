@@ -59,6 +59,7 @@ export class Particle {
             this.x = this.radius + Math.random() * (this.effect.width-this.radius*2);
             this.y = -this.radius - Math.random() * this.effect.height * 0.5;
             this.vy = 0;
+            this.bounces = 3;
     }
 
 }
